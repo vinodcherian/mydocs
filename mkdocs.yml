@@ -112,3 +112,28 @@ nav:
       - 8. Future Directions: RAG/08_future.md
       - 9. Summary: RAG/09_summary.md
       - 10. References: RAG/10_references.md
+  - LLM:
+      - Fine Tuning:
+        - Appendix: LLM/FineTuning/Appendix.md
+        - Chapter1: LLM/FineTuning/Chapter1.md
+        - Chapter2: LLM/FineTuning/Chapter2.md
+        - Chapter3: LLM/FineTuning/Chapter3.md
+        - Chapter4: LLM/FineTuning/Chapter4.md
+        - Chapter5: LLM/FineTuning/Chapter5.md
+        - Chapter6: LLM/FineTuning/Chapter6.md
+        - Chapter7: LLM/FineTuning/Chapter7.md
+        - Chapter8: LLM/FineTuning/Chapter8.md
+        - Chapter9: LLM/FineTuning/Chapter9.md
+        - Chapter10: LLM/FineTuning/Chapter10.md
+        - Chapter11: LLM/FineTuning/Chapter11.md
+        - Chapter12: LLM/FineTuning/Chapter12.md
+        - Chapter13: LLM/FineTuning/Chapter13.md
+        - Chapter14: LLM/FineTuning/Chapter14.md
+        - Chapter15: LLM/FineTuning/Chapter15.md
+        - finetuning: LLM/FineTuning/finetuning.md
+        - finetuning_index: LLM/FineTuning/finetuning_index.md
+        - foreword_introduction: LLM/FineTuning/foreword_introduction.md
+        - LLM_Inefficiency: LLM/FineTuning/LLM_Inefficiency.md
+        - LLM FineTuning 04: LLM/FineTuning/LLM FineTuning 04.md
+        - LLM FineTuning 04 Frameworks: LLM/FineTuning/LLM FineTuning 04 Frameworks.md
+    
