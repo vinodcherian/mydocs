@@ -1,0 +1,114 @@
+site_name: My Docs
+site_url: https://sitename.example
+theme:
+  name: material
+  icon:
+    logo: fontawesome/solid/v
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.sections
+    - navigation.path
+    - header.autohide
+    - navigation.footer
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - search.suggest
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+      primary: indigo
+      accent: blue
+
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+      primary: blue
+      accent: deep orange    
+plugins:
+  - tags
+  - search
+extra_javascript:
+  - javascripts/shortcuts.js
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower      
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true  
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.betterem       
+  - pymdownx.blocks.caption  
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower      
+#extra:
+#  social:
+#    - icon: simple/youtube
+#      link: https://youtube.com/@content_creator_channel_url
+#    - icon: simple/linkedin
+#      link: https://linkedin.com/in/content_creator
+copyright: Copyright &copy; 2024 Content Creator Name
+#nav:
+#  - 'Home': 'index.md'
+#  - tutorials.md
+#  - 'How-To Guides': 'how-to-guides.md'
+#Or
+#nav:
+#  - Home: index.md
+#  - tutorials.md
+#  - How-To Guides: how-to-guides.md
+#And
+#nav:
+#  - Home: index.md
+#  - Pages:
+#    - Page1: path-to-page1
+#    - Page2: path-to-page2
+nav:
+  #- index.md
+  - Home: index.md
+  - CNN:
+      - CNN/cnn.md
+  - RAG:
+      - RAG/rag_presentation.md
+      - RAG/rag.md
+      - 1. What is RAG: RAG/01_what-is-rag.md
+      - 2. History of RAG: RAG/02_history.md
+      - 3. RAG Architecture: RAG/03_architecture.md
+      - 4. Types of RAG: RAG/04_types.md
+      - 5. Tools and Frameworks: RAG/05_tools.md
+      - 6. Advanced RAG Variants: RAG/06_advanced.md
+      - 7. Recent Developments: RAG/07_developments.md
+      - 8. Future Directions: RAG/08_future.md
+      - 9. Summary: RAG/09_summary.md
+      - 10. References: RAG/10_references.md
