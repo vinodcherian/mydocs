@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "mkdocs serve",
     "build": "python3 -m mkdocs build -d public"
   }
 }
